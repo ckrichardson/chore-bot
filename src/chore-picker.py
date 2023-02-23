@@ -69,6 +69,11 @@ def init_participant_details() -> None:
         raise Exception(
             'There is currently only one phone number in the config.   Please use more than one phone number.'
         )
+    
+    if(PARTICIPANT_NUMBER != len(CHORE_LIST)):
+        raise Exception (
+            'This app currently only supports an equal number between particpants and chores (i.e. 3 participants, 3 chores)'
+        )
 
     return
 
