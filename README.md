@@ -1,5 +1,5 @@
 # chore-bot
-Randomized chore picker with Twilio SMS integration
+Randomized chore picker with Twilio SMS integration \
 Only works with python >= 3.9
 
 # Instructions
